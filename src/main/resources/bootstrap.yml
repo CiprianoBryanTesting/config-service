@@ -1,0 +1,14 @@
+server:
+  port: 8901
+
+spring:
+  application:
+    name: config-service
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/CiprianoBryanTesting/services-configuration.git
+          username: ${GIT_USER}
+          password: ${GIT_PASSWORD}
+          default-label: develop
