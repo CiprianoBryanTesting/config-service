@@ -11,4 +11,4 @@ spring:
           uri: https://github.com/CiprianoBryanTesting/services-configuration.git
           username: ${GIT_USER}
           password: ${GIT_PASSWORD}
-          default-label: release/0.1
+          default-label: release/1.0
